@@ -1,0 +1,11 @@
+module.exports = {
+  extends: [
+    "semistandard",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  root: true,
+};
