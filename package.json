@@ -10,10 +10,13 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "http-server": "^14.1.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "typescipt": "^1.0.0"
   },
   "scripts": {
-    "serve": "http-server ./dist -a 127.0.0.1"
+    "serve": "http-server ./dist -a 127.0.0.1",
+    "prepare": "husky install"
   }
 }
