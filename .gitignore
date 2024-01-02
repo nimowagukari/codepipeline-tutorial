@@ -240,3 +240,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode,node,terraform
 /dist/*
 !/dist/index.html
+/terraform/*ecs-task-def.json
